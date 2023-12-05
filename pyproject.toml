@@ -1,0 +1,18 @@
+[project]
+name = "bins"
+version = "0.0.1"
+authors = [
+  { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "Unix coreutils."
+dependencies = [
+    "pytest",
+    "pandas",
+    "signalhandlers",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/notarealdeveloper/bins"
+
+[project.scripts]
+groupby = "bins.groupby:main"
