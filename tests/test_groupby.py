@@ -11,7 +11,7 @@ def test_groupby():
     """).strip()
 
     output = os.popen("""
-        find tests/data/ -type f | xargs sha1sum | groupby
+        find tests/data/ -type f | sort | xargs sha1sum | sort | groupby
     """).read().strip()
 
     assert output == desired
