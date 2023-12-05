@@ -1,3 +1,3 @@
-# bins
+# core1
 
-Unix coreutils.
+Unix coreutils for software 1.0.

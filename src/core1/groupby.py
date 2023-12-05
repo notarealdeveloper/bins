@@ -25,8 +25,8 @@ def main(argv=None):
     else:
         file = args.file
 
-    import sigs
-    sigs.install_exit_on_sigpipe_handler()
+    import signalhandlers
+    signalhandlers.install_exit_on_sigpipe_handler()
 
     import pandas as pd
     df = pd.read_csv(file, sep=args.in_sep, header=None)

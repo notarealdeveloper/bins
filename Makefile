@@ -1,10 +1,10 @@
-PKG = bins
+PKG = core1
 
 build:
 	pip install build
 	python -m build
 
-install: build
+install:
 	pip install dist/*.tar.gz
 
 develop:
