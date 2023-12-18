@@ -1,3 +1,3 @@
-# core1
+# executive
 
-Unix coreutils for software 1.0.
+An ode to the exec system call.

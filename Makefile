@@ -1,4 +1,4 @@
-PKG = core1
+PKG = executive
 
 build:
 	pip install build
@@ -30,4 +30,3 @@ push-prod:
 
 pull-prod:
 	pip install $(PKG)
-
