@@ -4,11 +4,12 @@
     shell groupby
 """
 
+import sys
+
 def main(argv=None):
 
     import os
     import io
-    import sys
     import argparse
 
     argv = argv or sys.argv[1:]

@@ -2,11 +2,12 @@
 
 __all__ = ['main']
 
-import os
 import sys
-import argparse
 
 def main(argv=None):
+
+    import os
+    import argparse
 
     if argv is None:
         argv = sys.argv[1:]

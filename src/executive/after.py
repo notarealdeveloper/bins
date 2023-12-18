@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
+import sys
+
 def main(argv=None):
 
     import os
     import re
-    import sys
     import argparse
 
     argv = argv or sys.argv[1:]
